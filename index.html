@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electrochip</title>
+	<style type="text/css">
+		body
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		div.main
+		{
+			position: absolute;
+			width: 100%;
+			height: 100vh;
+			background: #ccccff;
+		}
+		div.main h1
+		{
+			position: absolute;
+			top: 70px;
+			left: 100px;
+		}
+		div.main p
+		{
+			position: absolute;
+			top: 200px;
+			left: 100px;
+		}
+		div.main button
+		{
+			position: absolute;
+			height: 50px;
+			width: 180px;
+			padding: 10px;
+			text-align: center;
+			border-radius: 25px;
+			background: #000066;
+			top: 300px;
+			left: 100px;
+			color: white;
+		}
+		div.main img
+		{
+			position: absolute;
+			top:50px;
+			left: 800px;
+			border-radius: 300px;
+			border:5px solid #000066;
+		}
+		div.h1 h1
+		{
+			position: absolute;
+			top: 800px;
+			left: 550px;
+		}
+		div.one
+		{
+			position: absolute;
+			top: 900px;
+			left: 100px;
+			width: 350px;
+			height: 300px;
+			background: white;
+			border-radius: 50px;
+			border:2px solid white;
+			box-shadow: 3px 3px 3px 3px black;
+		}
+		div.one h1
+		{
+			position: absolute;
+			left: 20px;
+			top: 130px;
+		}
+		div.one p
+		{
+			position: absolute;
+			left: 60px;
+			top: 180px;
+		}
+		div.one img
+		{
+			position: absolute;
+			top: 20px;
+			height: 100px;
+			width: 100px;
+			left: 100px;
+		}
+		div.two h1
+		{
+			position: absolute;
+			left: 20px;
+			top: 130px;
+		}
+		div.two p
+		{
+			position: absolute;
+			left: 60px;
+			top: 180px;
+		}
+		div.two img
+		{
+			position: absolute;
+			top: 20px;
+			height: 100px;
+			width: 100px;
+			left: 100px;
+		}
+		div.three h1
+		{
+			position: absolute;
+			left: 20px;
+			top: 130px;
+		}
+		div.three p
+		{
+			position: absolute;
+			left: 60px;
+			top: 180px;
+		}
+		div.three img
+		{
+			position: absolute;
+			top: 20px;
+			height: 100px;
+			width: 100px;
+			left: 100px;
+		}
+		div.four h1
+		{
+			position: absolute;
+			left: 20px;
+			top: 130px;
+		}
+		div.four p
+		{
+			position: absolute;
+			left: 60px;
+			top: 180px;
+		}
+		div.four img
+		{
+			position: absolute;
+			top: 20px;
+			height: 100px;
+			width: 100px;
+			left: 100px;
+		}
+		div.five h1
+		{
+			position: absolute;
+			left: 20px;
+			top: 130px;
+		}
+		div.five p
+		{
+			position: absolute;
+			left: 60px;
+			top: 180px;
+		}
+		div.five img
+		{
+			position: absolute;
+			top: 20px;
+			height: 100px;
+			width: 100px;
+			left: 100px;
+		}
+		div.two
+		{
+			position: absolute;
+			top: 900px;
+			left: 500px;
+			width: 350px;
+			height: 300px;
+			background:white;
+			border-radius: 50px;
+			border:2px solid white;
+			box-shadow: 3px 3px 3px 3px black;
+		}
+		div.three
+		{
+			position: absolute;
+			top: 900px;
+			left: 900px;
+			width: 350px;
+			height: 300px;
+			background: white;
+			border-radius: 50px;
+			border:2px solid white;
+			box-shadow: 3px 3px 3px 3px black;
+		}
+		div.four
+		{
+			position: absolute;
+			top: 1300px;
+			left: 250px;
+			width: 350px;
+			height: 300px;
+			background: white;
+			border-radius: 50px;
+			border:2px solid white;
+			box-shadow: 3px 3px 3px 3px black;
+		}
+		div.five
+		{
+			position: absolute;
+			top: 1300px;
+			left: 650px;
+			width: 350px;
+			height: 300px;
+			background: white;
+			border-radius: 50px;
+			border:2px solid white;
+			box-shadow: 3px 3px 3px 3px black;
+		}
+		div.button button
+		{
+			position: absolute;
+			top: 1700px;
+			left: 550px;
+			background: #000066;
+			border-radius: 25px;
+			height: 50px;
+			width: 150px;
+			text-align: center;
+			color: white;
+		}
+		div.about
+		{
+			position: absolute;
+			top: 1800px;
+			background: #ccccff;
+			width: 100%;
+			height: 800px;
+		}
+		div.about h1
+		{
+			position: absolute;
+			top: 200px;
+			left: 100px;
+		}
+		div.about p
+		{
+			position: absolute;
+			top: 300px;
+			left: 100px;
+		}
+		div.about button
+		{
+			position: absolute;
+			top: 470px;
+			left: 100px;
+			text-align: center;
+			border-radius: 15px;
+			background: #000066;
+			color: white;
+			height: 50px;
+			width: 150px;
+		}
+		div.about div.man3 img
+		{
+			position: absolute;
+			top: 100px;
+			left: 700px;
+			border-radius: 200px;
+			border:5px solid #000066;
+		}
+		div.about div.man4 img
+		{
+			position: absolute;
+			top: 450px;
+			left: 950px;
+			border-radius: 200px;
+			border:5px solid #000066;
+		}
+		div.h2 h1
+		{
+			position: absolute;
+			top: 2650px;
+			left: 630px;
+			font-style: bold;
+		}
+		div.six
+		{
+			position: absolute;
+			top: 2800px;
+			left: 100px;
+			width: 550px;
+			height: 500px;
+			background: white;
+			border:2px solid white;
+			box-shadow: 3px 3px 3px 3px black;
+		}
+		div.six h1
+		{
+			position: absolute;
+			left: 30px;
+			top: 380px;
+		}
+		div.six p
+		{
+			position: absolute;
+			left: 30px;
+			top: 430px;
+		}
+		div.six img
+		{
+			position: absolute;
+			height: 400px;
+			width: 550px;
+		}
+		div.seven
+		{
+			position: absolute;
+			top: 2800px;
+			left: 700px;
+			width: 550px;
+			height: 500px;
+			background: white;
+			border:2px solid white;
+			box-shadow: 3px 3px 3px 3px black;
+		}
+		div.seven h1
+		{
+			position: absolute;
+			left: 30px;
+			top: 380px;
+		}
+		div.seven p
+		{
+			position: absolute;
+			left: 30px;
+			top: 430px;
+		}
+		div.seven img
+		{
+			position: absolute;
+			height: 380px;
+			width: 550px;
+		}
+		div.buu button
+		{
+			position: absolute;
+			top: 3820px;
+			left: 110px;
+			background: #000066;
+			text-align: center;
+			color: white;
+			height: 50px;
+			width: 150px;
+		}
+		div.footer
+		{
+			position: absolute;
+			top: 4000px;
+			background: #000066;
+			height: 350px;
+			width: 100%;
+		}
+		div.footer h3
+		{
+			position: absolute;
+			top: 130px;
+			color: white;
+			left: 100px;
+		}
+		div.end
+		{
+			position: absolute;
+			top: 4350px;
+			height: 70px;
+			width: 100%;
+			background: white;
+		}
+		div.end a
+		{
+			position: absolute;
+			top: 20px;
+			left: 500px;
+		}
+		div.call h3
+		{
+			position: absolute;
+			top:4130px;
+			left: 500px;
+			color: white;
+		}
+		div.email h3
+		{
+			position: absolute;
+			top:4130px;
+			left: 800px;
+			color: white;
+		}
+		div.input input
+		{
+			position: absolute;
+			top: 4230px;
+			left:100px; 
+			width: 500px;
+			height: 30px;
+		}
+		div.bii button
+		{
+			position: absolute;
+			top: 4230px;
+			left: 609px;
+			height:38px;
+			width: 250px;
+			text-align: center;
+			background: red;
+			color: white; 
+		}
+	</style>
+</head>
+<body>
+	<table width="100%" border="0" bgcolor="#ccccff">
+		<tr height="5">
+			<td width="100"></td>
+			<td width="" color="blue">
+				<h1>Electrochip</h1>
+			</td>
+			<td width="100" ><a href="file:///C:/Users/HK/Downloads/Electrochip%20Free%20Website%20Template%20-%20Free-CSS.com%20(1)/electrochip-html/index.html">Home</td>
+			<td width="100" ><a href="file:///C:/Users/HK/Downloads/Electrochip%20Free%20Website%20Template%20-%20Free-CSS.com%20(1)/electrochip-html/about.html">About</td>
+			<td width="100"><a href="file:///C:/Users/HK/Downloads/Electrochip%20Free%20Website%20Template%20-%20Free-CSS.com%20(1)/electrochip-html/blog.html">Blog</td>
+			<td width="100" ><a href="file:///C:/Users/HK/Downloads/Electrochip%20Free%20Website%20Template%20-%20Free-CSS.com%20(1)/electrochip-html/services.html">Services</td>
+			<td width="100" ><a href="file:///C:/Users/HK/Downloads/Electrochip%20Free%20Website%20Template%20-%20Free-CSS.com%20(1)/electrochip-html/Contact.html">Contact us</td>
+			<td width="150" ></td>
+		</tr>
+	</table>
+	<div class="main">
+		<h1>Electrical<br/> Service<br/> Providers</h1>
+		<p>It is a long established fact that a reader will be distracted by the<br/> readable content of a page when looking at its layout. The point of<br/> using Lorem</p>
+		<button>Contact us</button>
+		<img src="man2.jpg">
+	</div>
+	<div class="h1">
+		<h1>Our Services<img src="plug2.png"></h1>
+	</div>
+	<div class="one">
+		<img src="s1.png">
+		<h1>Equipment installation</h1>
+		<p>There are many variations of<br/> passages of Lorem Ipsum available,</p>
+	</div>
+	<div class="two">
+		<img src="s2.png">
+		<h1>Equipment installation</h1>
+		<p>There are many variations of<br/> passages of Lorem Ipsum available,</p>
+	</div>
+	<div class="three">
+		<img src="s3.png">
+		<h1>Equipment installation</h1>
+		<p>There are many variations of<br/> passages of Lorem Ipsum available,</p>
+	</div><br/>
+	<div class="four">
+		<img src="s4.png">
+		<h1>Equipment installation</h1>
+		<p>There are many variations of<br/> passages of Lorem Ipsum available,</p>
+	</div>
+	<div class="five">
+		<img src="s5.png">
+		<h1>Equipment installation</h1>
+		<p>There are many variations of<br/> passages of Lorem Ipsum available,</p>
+	</div>
+	<div class="button">
+		<button>Read More</button>
+	</div>
+	<div class="about">
+		<h1>About us<img src="plug2.png"></h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> sed do eiusmod tempor incididunt ut labore et dolore<br/> magna aliqua. Ut enim ad minim veniam, quis nostrud<br/> exercitation ullamco laboris nisi ut aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+		<button>Read More</button>
+		<div class="man3">
+			<img src="man3.jpg">
+		</div>
+		<div class="man4">
+			<img src="man4.jpg">
+		</div>
+	</div>
+	<div class="h2">
+		<h1>Blod<img src="plug2.png"></h1>
+	</div>
+	<div class="six">
+		<img src="blog1.jpg">
+		<h1>Blog Title Goes Here</h1>
+		<p>There are many variations of passages of Lorem Ipsum<br/> available, but the majority have suffered alteration in some<br/> form, by injected humour, or randomised</p>
+	</div>
+	<div class="seven">
+		<img src="blog2.jpg">
+		<h1>Blog Title Goes Here</h1>
+		<p>There are many variations of passages of Lorem Ipsum<br/> available, but the majority have suffered alteration in some<br/> form, by injected humour, or randomised</p>
+	</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<table width="100%" border="0" bgcolor="">
+		<tr height="500" border="0">
+			<td width="100" bgcolor="white"></td>
+			<td bgcolor="white">
+				<h1>Contact Us<img src="plug2.png"></h1>
+				<input type="text" name="" placeholder="Name" size="50" height="10" bgcolor="blue	"><br/><br/>
+				<input type="text" name="" placeholder="Phone Number" size="50" ><br/><br/>
+				<input type="text" name="" placeholder="Email" size="50" ><br/><br/>
+				<label></label>
+				<textarea rows="5" cols="50" placeholder="Messege"></textarea><br/><br/>
+			</td>
+			<td width="500" bgcolor="white">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.1918809567337!2d74.37129624533418!3d31.491409215789034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905c5071f402d%3A0x7844f58857830867!2sGhazi%20Cadet%20school%20%26%20Academy!5e0!3m2!1sen!2s!4v1729934204100!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</td>
+			<td width="100" bgcolor=""></td>
+		</tr>
+	</table>
+	<div class="buu">
+		<button>Send</button>
+	</div>
+	<div class="footer">
+		<h3> Passages of Lorem Ipsum available</h3></div>
+		<div class="call"><h3>Call : +03265943879</h3></div>
+		<div class="end">
+			<a href="https://www.free-css.com/free-css-templates?start=24">https://www.free-css.com/free-css-templates?start=24
+		</div>
+		<div class="email">
+			<h3>qarimohsinqadri2917@gmail.com</h3>
+		</div>
+		<div class="input">
+			<input type="text" name="" placeholder="Enter your Email">
+		</div>
+		<div class="bii">
+			<button>Subscribe</button>
+		</div>
+</body>
+</html>
